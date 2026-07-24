@@ -1,21 +1,45 @@
 aid: blockpartyapp
 name: Blockpartyapp
-description: 'Blockpartyapp is a company surfaced as a portfolio company of homebrew and added to the
-  API Evangelist network as a stub for enrichment. Sector: crypto-web3. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Block Party is a consumer privacy tool — a browser extension (Chrome,
+  Firefox, and Edge) that helps people deep-clean and secure their social media presence.
+  It scans connected accounts for privacy and security exposures, then automates bulk
+  cleanup across Facebook, X/Twitter, Instagram, Reddit, and LinkedIn: deleting old
+  posts, likes, and comments, untagging photos, removing connections, stripping location
+  data, and tightening privacy settings. Founded by Tracy Chou, Block Party (also
+  branded Privacy Party) is a consumer-facing application and does not publish a public
+  developer API.'
 url: https://raw.githubusercontent.com/api-evangelist/blockpartyapp/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://static.privacypartyapp.com/static/images/og-share-image-deep-clean-text.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - homebrew
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-sector-correction: 'Stub was labeled crypto-web3; the domain blockpartyapp.com is
+  Block Party, a consumer social-media privacy browser extension with no public API.
+  Sector corrected to consumer-privacy during enrichment.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-- Crypto Web3
+- Privacy
+- Social Media
+- Security
+- Browser Extension
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/blockpartyapp-domain-security.yml
 - type: Website
   url: https://www.blockpartyapp.com
+- type: Pricing
+  url: https://www.blockpartyapp.com/pricing
+- type: Blog
+  url: https://www.blockpartyapp.com/blog/
+- type: Support
+  url: https://www.blockpartyapp.com/faqs
+- type: PrivacyPolicy
+  url: https://www.blockpartyapp.com/privacy-policy
+- type: TermsOfService
+  url: https://www.blockpartyapp.com/tos/
+- type: SignUp
+  url: https://app.blockpartyapp.com/install/
+- type: Login
+  url: https://app.blockpartyapp.com/login/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
