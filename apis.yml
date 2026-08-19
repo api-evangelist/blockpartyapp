@@ -30,7 +30,7 @@ x-tier-reason: portfolio-lead
 x-sector-correction: 'Stub was labeled crypto-web3; the domain blockpartyapp.com is
   Block Party, a consumer social-media privacy browser extension with no public API.
   Sector corrected to consumer-privacy during enrichment.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
